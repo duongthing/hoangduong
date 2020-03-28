@@ -1,0 +1,10 @@
+let i = 1;
+const n = Number(prompt("Input n"))
+let multiply = 1;
+while (i <= n){
+    multiply = multiply * i;
+    i++
+}
+console.log(multiply);
+// em không biết làm bài này nên là e xem bài của 1 bạn là như này. em k hiểu dc là tại sao lại có thêm lệnh let mutiply = 1
+với multiply = multiply * i;. a giải thích giúp e nhé ạ
