@@ -1,0 +1,19 @@
+let height = Number(prompt("chiều cao của bạn (cm)? "));
+let weight = Number(prompt("cân nặng của bạn (kg)? "));
+let height2 = height / 100
+let BMI = (weight / (height2 * height2));
+if (BMI < 16) {
+    console.log("Severely underweight");
+}
+if (BMI >= 16 && BMI < 18 ) {
+    console.log("Underweight");
+}
+else if (BMI >= 18.5 && BMI < 25 ) {
+    console.log("normal");
+}
+else if (BMI >= 25 && BMI < 30 ) {
+    console.log("overweight");
+}
+else {
+    console.log("obese");
+}
